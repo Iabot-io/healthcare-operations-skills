@@ -27,8 +27,8 @@ Trabaja con agenda autorizada, duraciones, recursos y reglas del centro. Usa exc
 ## Procedimiento
 
 1. Fija periodo, recurso, duración y estado de las citas con identificadores mínimos.
-2. Comprueba solapes, tiempos de preparación y restricciones del centro.
-3. Identifica huecos utilizables según reglas aportadas, sin convertir cancelaciones pendientes en disponibilidad confirmada.
+2. Comprueba solapes, tiempos de preparación y restricciones del centro. Declara cómo se tratan los extremos de cada intervalo y las holguras exigidas.
+3. Identifica huecos utilizables según reglas aportadas, sin convertir cancelaciones pendientes en disponibilidad confirmada. Un intervalo sin citas solo es disponibilidad confirmada si también constan jornada, pausas y recursos.
 4. Propón alternativas administrativas respetando recursos y preferencias registradas.
 5. Entrega opciones sin modificar citas ni aplicar prioridades clínicas por cuenta propia.
 
